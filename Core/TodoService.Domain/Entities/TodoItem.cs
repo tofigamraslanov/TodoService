@@ -2,7 +2,7 @@
 
 namespace TodoService.Domain.Entities
 {
-    public class TodoItem:BaseEntity
+    public class TodoItem : BaseEntity
     {
         public string Name { get; set; }
         public bool IsComplete { get; set; }

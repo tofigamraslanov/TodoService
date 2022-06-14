@@ -8,4 +8,18 @@
     <ProjectReference Include="..\TodoService.Domain\TodoService.Domain.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Features\Commands\TodoItem\DeleteTodoItem\" />
+    <Folder Include="Features\Commands\TodoItem\UpdateTodoItem\" />
+    <Folder Include="Features\Queries\TodoItem\GetTodoItems\" />
+    <Folder Include="Features\Queries\TodoItem\GetTodoItemById\" />
+    <Folder Include="Repositories\TodoItem\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="9.0.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.26" />
+  </ItemGroup>
+
 </Project>
